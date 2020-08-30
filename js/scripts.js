@@ -6,6 +6,12 @@ $(document).ready(function(){
     $('#reserveButton').click(function(){
         $('#reserveModal').modal('toggle')
     });
+    $('#findButton').click(function(){
+        $('#findModal').modal('toggle')
+    });
+    $('#updateButton').click(function(){
+        $('#updateModal').modal('toggle')
+    });
     $("#carouselButton").click(function(){
             if ($("#carouselButton").children("span").hasClass('fa-pause')) {
                 $("#mycarousel").carousel('pause');
